@@ -6,12 +6,12 @@ function draw() {
   background(200);
   
   // check to condition of the mouse
-  if(mouseIsPressed){ // true or false?
-    // if true, change the fill color here
+  if(mouseIsPressed == true){ // true or false?
+    fill("orange");// if true, change the fill color here
     
   }
   else { 
-    // otherwise do this:
+    fill(255)// otherwise do this:
     
   }
   ellipse(width/2, height/2, 100, 100);
